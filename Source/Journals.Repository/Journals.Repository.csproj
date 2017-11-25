@@ -69,13 +69,18 @@
       <HintPath>..\packages\Microsoft.AspNet.WebPages.Data.3.2.3\lib\net45\WebMatrix.Data.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="WebMatrix.WebData, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="WebMatrix.WebData, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\WebMatrix.WebData.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataContext\DataInitializer.cs" />
     <Compile Include="DataContext\DropCreateDatabaseAlwaysInitializer.cs" />
     <Compile Include="DataContext\SimpleMembershipInitializer.cs" />
     <Compile Include="IDisposedTracker.cs" />
+    <Compile Include="IIssuesRepository.cs" />
+    <Compile Include="IssuesRepository.cs" />
     <Compile Include="IStaticMembershipService.cs" />
     <Compile Include="ISubscriptionRepository.cs" />
     <Compile Include="IJournalRepository.cs" />

@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Web.Mvc;
 
 namespace Journals.Web.Filters
 {
+    [ExcludeFromCodeCoverage]
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
     public class AuthorizeRedirect : AuthorizeAttribute
     {

@@ -1,8 +1,10 @@
-﻿using System.Web.Security;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Web.Security;
 using WebMatrix.WebData;
 
 namespace Journals.Repository
 {
+    [ExcludeFromCodeCoverage]
     public class StaticMembershipService : IStaticMembershipService
     {
         public System.Web.Security.MembershipUser GetUser()

@@ -2,10 +2,12 @@
 using Journals.Repository.DataContext;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
 namespace Journals.Repository
 {
+    
     public class SubscriptionRepository : RepositoryBase<JournalsContext>, ISubscriptionRepository
     {
         public List<Journal> GetAllJournals()

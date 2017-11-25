@@ -1,0 +1,4 @@
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Model\bin\Debug\Medico.Model.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Model\bin\Debug\Medico.Model.pdb
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Model\obj\Debug\Medico.Model.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Model\obj\Debug\Medico.Model.pdb

@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Journals.Model
 {
-    [DebuggerDisplay("Status: {Status}")]
+    [ExcludeFromCodeCoverage]  
     public class OperationStatus
     {
         public bool Status { get; set; }

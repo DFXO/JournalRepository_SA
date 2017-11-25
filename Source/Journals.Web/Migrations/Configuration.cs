@@ -1,8 +1,11 @@
+using System.Diagnostics.CodeAnalysis;
+
 namespace Journals.Web.Migrations
 {
     using Journals.Repository.DataContext;
     using System.Data.Entity.Migrations;
 
+    [ExcludeFromCodeCoverage]
     internal sealed class Configuration : DbMigrationsConfiguration<UsersContext>
     {
         public Configuration()

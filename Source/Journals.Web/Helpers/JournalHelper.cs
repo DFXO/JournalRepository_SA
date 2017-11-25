@@ -1,8 +1,10 @@
-﻿using Journals.Model;
+﻿using System.Diagnostics.CodeAnalysis;
+using Journals.Model;
 using System.Web;
 
 namespace Journals.Web.Helpers
 {
+    [ExcludeFromCodeCoverage]
     public static class JournalHelper
     {
         public static void PopulateFile(HttpPostedFileBase file, Journal journal)

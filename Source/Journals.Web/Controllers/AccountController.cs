@@ -4,6 +4,7 @@ using Journals.Repository.DataContext;
 using Microsoft.Web.WebPages.OAuth;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Transactions;
 using System.Web.Mvc;
@@ -12,6 +13,7 @@ using WebMatrix.WebData;
 
 namespace Journals.Web.Controllers
 {
+    [ExcludeFromCodeCoverage]
     [Authorize]
     public class AccountController : Controller
     {

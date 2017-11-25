@@ -1,10 +1,12 @@
 ﻿using System.Data.Entity;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Web.Security;
 using WebMatrix.WebData;
 
 namespace Journals.Repository.DataContext
 {
+    [ExcludeFromCodeCoverage]
     public class ModelChangedInitializer : DropCreateDatabaseIfModelChanges<JournalsContext>
     {
         protected override void Seed(JournalsContext context)
