@@ -1,0 +1,340 @@
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Medico.Web.dll.config
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Medico.Web.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Medico.Web.pdb
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Antlr3.Runtime.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\AutoMapper.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\DotNetOpenAuth.AspNet.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\DotNetOpenAuth.Core.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\DotNetOpenAuth.OAuth.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\DotNetOpenAuth.OpenId.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\EntityFramework.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\EntityFramework.SqlServer.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\IdentityManager.AspNetIdentity.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\IdentityManager.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Medico.Model.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Medico.Repository.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Microsoft.Data.Edm.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Microsoft.Data.OData.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Microsoft.Practices.ServiceLocation.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Microsoft.Practices.Unity.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Newtonsoft.Json.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Owin.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Net.Http.Formatting.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Spatial.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Web.Helpers.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Web.Http.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Web.Http.OData.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Web.Http.WebHost.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Web.Mvc.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Web.Optimization.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Web.Razor.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Web.WebPages.Deployment.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Web.WebPages.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Web.WebPages.Razor.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\WebGrease.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\WebMatrix.WebData.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Org.Mentalis.Security.Cryptography.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Mono.Math.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Medico.Model.pdb
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Medico.Repository.pdb
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\AutoMapper.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\EntityFramework.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\EntityFramework.SqlServer.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\IdentityManager.pdb
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\IdentityManager.AspNetIdentity.pdb
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Microsoft.Practices.ServiceLocation.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Microsoft.Practices.Unity.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Newtonsoft.Json.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Net.Http.Formatting.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Web.Helpers.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Web.Http.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Web.Http.WebHost.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Web.Mvc.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Web.Razor.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Web.WebPages.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Web.WebPages.Deployment.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Web.WebPages.Razor.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\WebMatrix.WebData.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\DotNetOpenAuth.AspNet.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\DotNetOpenAuth.Core.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\DotNetOpenAuth.OAuth.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\DotNetOpenAuth.OpenId.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Web.Http.OData.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Microsoft.Data.Edm.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Microsoft.Data.OData.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\System.Spatial.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Org.Mentalis.Security.Cryptography.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\Mono.Math.xml
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\de\Microsoft.Data.Edm.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\es\Microsoft.Data.Edm.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\it\Microsoft.Data.Edm.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\de\Microsoft.Data.OData.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\es\Microsoft.Data.OData.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\fr\Microsoft.Data.OData.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\it\Microsoft.Data.OData.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\ja\Microsoft.Data.OData.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\ko\Microsoft.Data.OData.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\ru\Microsoft.Data.OData.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\de\System.Spatial.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\es\System.Spatial.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\fr\System.Spatial.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\it\System.Spatial.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\ja\System.Spatial.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\ko\System.Spatial.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\ru\System.Spatial.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\zh-Hans\System.Spatial.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\zh-Hant\System.Spatial.resources.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\obj\Debug\Journals.Web.csprojResolveAssemblyReference.cache
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\obj\Debug\Medico.Web.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\obj\Debug\Medico.Web.pdb
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\WebMatrix.Data.dll
+D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\WebMatrix.Data.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\obj\Debug\Journals.Web.csprojResolveAssemblyReference.cache
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Medico.Web.dll.config
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Medico.Web.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Medico.Web.pdb
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Antlr3.Runtime.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\AutoMapper.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\DotNetOpenAuth.AspNet.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\DotNetOpenAuth.Core.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\DotNetOpenAuth.OAuth.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\DotNetOpenAuth.OpenId.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\EntityFramework.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\EntityFramework.SqlServer.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\IdentityManager.AspNetIdentity.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\IdentityManager.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Medico.Model.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Medico.Repository.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Microsoft.Data.Edm.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Microsoft.Data.OData.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Microsoft.Practices.Unity.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Newtonsoft.Json.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Owin.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Net.Http.Formatting.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Spatial.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Web.Helpers.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Web.Http.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Web.Http.OData.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Web.Http.WebHost.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Web.Mvc.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Web.Optimization.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Web.Razor.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Web.WebPages.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Web.WebPages.Razor.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\WebGrease.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\WebMatrix.WebData.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Org.Mentalis.Security.Cryptography.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Mono.Math.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Medico.Model.pdb
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Medico.Repository.pdb
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\AutoMapper.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\EntityFramework.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\EntityFramework.SqlServer.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\IdentityManager.pdb
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\IdentityManager.AspNetIdentity.pdb
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Microsoft.Practices.Unity.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Newtonsoft.Json.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Net.Http.Formatting.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Web.Helpers.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Web.Http.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Web.Http.WebHost.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Web.Mvc.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Web.Razor.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Web.WebPages.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Web.WebPages.Razor.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\DotNetOpenAuth.AspNet.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\DotNetOpenAuth.Core.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\DotNetOpenAuth.OAuth.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\DotNetOpenAuth.OpenId.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Web.Http.OData.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Microsoft.Data.Edm.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Microsoft.Data.OData.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\System.Spatial.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Org.Mentalis.Security.Cryptography.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\Mono.Math.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\de\Microsoft.Data.OData.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\es\Microsoft.Data.OData.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\it\Microsoft.Data.OData.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\de\System.Spatial.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\es\System.Spatial.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\fr\System.Spatial.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\it\System.Spatial.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\ja\System.Spatial.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\ko\System.Spatial.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\ru\System.Spatial.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\zh-Hans\System.Spatial.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\zh-Hant\System.Spatial.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\obj\Debug\Medico.Web.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\obj\Debug\Medico.Web.pdb
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\WebMatrix.Data.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshvinKamble_SEM_Net_Journals\Source\Journals.Web\bin\WebMatrix.WebData.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Medico.Web.dll.config
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Medico.Web.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Medico.Web.pdb
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Antlr3.Runtime.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\AutoMapper.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\DotNetOpenAuth.AspNet.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\DotNetOpenAuth.Core.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\DotNetOpenAuth.OAuth.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\DotNetOpenAuth.OpenId.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\EntityFramework.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\EntityFramework.SqlServer.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\IdentityManager.AspNetIdentity.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\IdentityManager.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Medico.Model.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Medico.Repository.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Microsoft.Data.Edm.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Microsoft.Data.OData.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Microsoft.Practices.Unity.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Newtonsoft.Json.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Owin.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Net.Http.Formatting.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Spatial.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Web.Helpers.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Web.Http.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Web.Http.OData.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Web.Http.WebHost.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Web.Mvc.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Web.Optimization.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Web.Razor.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Web.WebPages.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Web.WebPages.Razor.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\WebGrease.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\WebMatrix.Data.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\WebMatrix.WebData.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Org.Mentalis.Security.Cryptography.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Mono.Math.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Medico.Model.pdb
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Medico.Repository.pdb
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\AutoMapper.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\EntityFramework.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\EntityFramework.SqlServer.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\IdentityManager.pdb
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\IdentityManager.AspNetIdentity.pdb
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Microsoft.Practices.Unity.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Newtonsoft.Json.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Net.Http.Formatting.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Web.Helpers.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Web.Http.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Web.Http.WebHost.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Web.Mvc.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Web.Razor.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Web.WebPages.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Web.WebPages.Razor.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\DotNetOpenAuth.AspNet.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\DotNetOpenAuth.Core.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\DotNetOpenAuth.OAuth.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\DotNetOpenAuth.OpenId.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Web.Http.OData.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Microsoft.Data.Edm.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Microsoft.Data.OData.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\System.Spatial.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\WebMatrix.WebData.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Org.Mentalis.Security.Cryptography.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\Mono.Math.xml
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\de\Microsoft.Data.OData.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\es\Microsoft.Data.OData.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\it\Microsoft.Data.OData.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\de\System.Spatial.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\es\System.Spatial.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\fr\System.Spatial.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\it\System.Spatial.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\ja\System.Spatial.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\ko\System.Spatial.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\ru\System.Spatial.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\zh-Hans\System.Spatial.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\bin\zh-Hant\System.Spatial.resources.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\obj\Debug\Medico.Web.dll
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\obj\Debug\Medico.Web.pdb
+D:\Desj\Gadwin\SA Asignment (Journal)\AshviniKamble\Source\Journals.Web\obj\Debug\Journals.Web.csprojResolveAssemblyReference.cache

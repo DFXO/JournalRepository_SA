@@ -1,0 +1,108 @@
+﻿@model IEnumerable<Journals.Model.IssueViewModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Style
+{
+    <style type="text/css">
+        .table {
+            table-layout: fixed;
+        }
+
+            .table td {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+    </style>
+}
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+<h2>Issues - List of Issues</h2>
+<div class="container">
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                </div>
+                <div class="modal-body">                   
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info" style="width: fit-content;">
+            <strong class="glyphicon glyphicon-warning-sign"></strong> Journal has no issues running.
+        </div>        
+    }
+    else
+    {
+        <table class="table table-hover table-bordered" style="width: auto;">
+            <thead class="thead-inverse">
+            <tr class="active">
+                <th>Journal Id</th>
+                <th>Volume Id</th>
+                <th>Issue Id</th>
+                <th>Created Date</th>
+                <th>Last Updated Date</th>
+                <th>File</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="active">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.JournalId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.VolumeNo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IssueNo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Creation)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Updated)
+                    </td>
+                    <td>
+                        @Html.ActionLink(item.FileName, "GetFile", new {Id = item.IssueNo,name="filename"}, new {target = "_blank"})
+                    </td>
+                </tr>
+            }
+
+            </tbody>
+        </table>
+
+    }
+</div>
+        <div class="form-group">
+            <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;@Html.ActionLink("Cancel", "Index", "Publisher", null, new { @class = "btn btn-xs", })&nbsp;&nbsp;
+                @Html.ActionLink("New Issue", "Create", "Issues", new {journalId = Session["journalId"]}, new {type = "button", @class = "btn btn-xs", @data_toggle = "modal", @data_target = "#myModal"})                
+            </div>
+</div>    
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
