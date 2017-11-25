@@ -1,9 +1,11 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
 using System.Web;
 
 namespace Journals.Model
 {
+    [ExcludeFromCodeCoverage]
     public class JournalViewModel
     {
         public int Id { get; set; }

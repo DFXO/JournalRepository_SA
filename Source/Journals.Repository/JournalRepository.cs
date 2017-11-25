@@ -4,10 +4,12 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Validation;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
 namespace Journals.Repository
 {
+
     public class JournalRepository : RepositoryBase<JournalsContext>, IJournalRepository
     {
         public List<Journal> GetAllJournals(int userId)

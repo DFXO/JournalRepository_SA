@@ -1,11 +1,13 @@
 ﻿using Journals.Model;
 using System;
 using System.Data.Entity;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Linq.Expressions;
 
 namespace Journals.Repository
 {
+    [ExcludeFromCodeCoverage]
     public class RepositoryBase<T> : IDisposable where T : DbContext, IDisposedTracker, new()
     {
         private T _DataContext;

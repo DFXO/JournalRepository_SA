@@ -1,7 +1,9 @@
-﻿using WebMatrix.WebData;
+﻿using System.Diagnostics.CodeAnalysis;
+using WebMatrix.WebData;
 
 namespace Journals.Repository.DataContext
 {
+    [ExcludeFromCodeCoverage]
     public class SimpleMembershipInitializer
     {
         public SimpleMembershipInitializer()

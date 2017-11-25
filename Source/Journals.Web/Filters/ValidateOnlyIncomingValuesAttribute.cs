@@ -1,8 +1,10 @@
-﻿using System.Linq;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Linq;
 using System.Web.Mvc;
 
 namespace Journals.Web.Filters
 {
+    [ExcludeFromCodeCoverage]
     public class ValidateOnlyIncomingValuesAttribute : ActionFilterAttribute
     {
         public override void OnActionExecuting(ActionExecutingContext filterContext)

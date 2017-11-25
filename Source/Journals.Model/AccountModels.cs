@@ -1,7 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
+
 
 namespace Journals.Model
 {
+    [ExcludeFromCodeCoverage]
     public class RegisterExternalLoginModel
     {
         [Required]
@@ -11,6 +14,7 @@ namespace Journals.Model
         public string ExternalLoginData { get; set; }
     }
 
+    [ExcludeFromCodeCoverage]
     public class LocalPasswordModel
     {
         [Required]
@@ -30,6 +34,8 @@ namespace Journals.Model
         public string ConfirmPassword { get; set; }
     }
 
+    [ExcludeFromCodeCoverage]
+
     public class LoginModel
     {
         [Required]
@@ -44,6 +50,7 @@ namespace Journals.Model
         [Display(Name = "Remember me?")]
         public bool RememberMe { get; set; }
     }
+    [ExcludeFromCodeCoverage]
 
     public class RegisterModel
     {
@@ -62,6 +69,8 @@ namespace Journals.Model
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
     }
+
+    [ExcludeFromCodeCoverage]
 
     public class ExternalLogin
     {

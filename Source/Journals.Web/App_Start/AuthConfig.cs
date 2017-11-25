@@ -1,5 +1,8 @@
-﻿namespace Journals.Web
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace Journals.Web
 {
+    [ExcludeFromCodeCoverage]
     public static class AuthConfig
     {
         public static void RegisterAuth()

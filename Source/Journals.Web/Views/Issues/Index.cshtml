@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Journals.Model.IssuesViewModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Style
+{
+    <style type="text/css">
+        .table {
+            table-layout: fixed;
+        }
+
+            .table td {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+    </style>
+}
+
+<h2>Issues - List of Issues</h2>
+
+@if (!Model.Any())
+{
+    <div> No Issues found. Add new issues.</div>
+    <div class="alert-danger"> Note: Issues will be created on Monthly basis by system, you will not be able to create additional issues in same month.</div>
+}
+else
+{
+
+    <table class="table table-condensed table-striped">
+        <thead>
+            <tr>
+                <th>Journal Id</th>
+                <th>Volume Id</th>
+                <th>Issue Id</th>
+                <th>Created Date</th>
+                <th>File</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.JournalId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Volume)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Issue)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CreatedDate)
+                    </td>                   
+                    <td>
+                        @Html.ActionLink(item.FileName, "GetFile", new { Id = item.Issue }, new { target = "_blank" })
+                    </td>                  
+                </tr>
+            }
+              
+        </tbody>
+    </table>
+}
+<div class="form-group">
+    <div class="col-md-offset-2 col-md-10">
+        @Html.ActionLink("Back to List", "Index", "Publisher") |
+        @Html.ActionLink("Create Issue", "Create", "Issues", new { journalId = Session["journalId"] }, null)
+    </div>
+</div>

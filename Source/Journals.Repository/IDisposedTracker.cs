@@ -1,4 +1,6 @@
-﻿namespace Journals.Repository
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace Journals.Repository
 {
     public interface IDisposedTracker
     {

@@ -57,7 +57,8 @@ else
                     </td>
                     <td>
                         @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                        @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                        @Html.ActionLink("Delete", "Delete", new { id = item.Id }) |
+                        @Html.ActionLink("Issues", "Index", new { Controller = "Issues", action = "Index", journalId = item.Id })
                     </td>
                 </tr>
             }

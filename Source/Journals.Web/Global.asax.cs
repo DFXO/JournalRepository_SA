@@ -4,6 +4,7 @@ using Journals.Repository.DataContext;
 using Journals.Web.IoC;
 using System;
 using System.Data.Entity;
+using System.Diagnostics.CodeAnalysis;
 using System.Threading;
 using System.Web;
 using System.Web.Http;
@@ -16,6 +17,7 @@ namespace Journals.Web
     // Note: For instructions on enabling IIS6 or IIS7 classic mode,
     // visit http://go.microsoft.com/?LinkId=9394801
 
+    [ExcludeFromCodeCoverage]
     public class MvcApplication : System.Web.HttpApplication
     {
         private static SimpleMembershipInitializer _initializer;
@@ -44,6 +46,9 @@ namespace Journals.Web
 
             Mapper.CreateMap<Journal, SubscriptionViewModel>();
             Mapper.CreateMap<SubscriptionViewModel, Journal>();
+
+            Mapper.CreateMap<Issues, IssuesViewModel>();
+            Mapper.CreateMap<IssuesViewModel, Issues>();
 
             LazyInitializer.EnsureInitialized(ref _initializer, ref _isInitialized, ref _initializerLock);
         }

@@ -1,9 +1,10 @@
 ﻿using Journals.Model;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Journals.Repository
 {
-    public interface IJournalRepository
+  public interface IJournalRepository
     {
         List<Journal> GetAllJournals(int userId);
 

@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccountModels.cs" />
+    <Compile Include="IssuesViewModel.cs" />
     <Compile Include="Journal.cs" />
+    <Compile Include="Issues.cs" />
     <Compile Include="JournalViewModel.cs" />
     <Compile Include="OperationStatus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

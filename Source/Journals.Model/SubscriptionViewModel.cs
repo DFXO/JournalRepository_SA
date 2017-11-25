@@ -1,7 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Journals.Model
 {
+    [ExcludeFromCodeCoverage]
     public class SubscriptionViewModel
     {
         public int Id { get; set; }
