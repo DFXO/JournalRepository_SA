@@ -1,0 +1,16 @@
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Repository.Tests\bin\Debug\Journals.Repository.Tests.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Repository.Tests\bin\Debug\Journals.Repository.Tests.pdb
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Repository.Tests\bin\Debug\AutoMapper.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Repository.Tests\bin\Debug\Medico.Model.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Repository.Tests\bin\Debug\Medico.Repository.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Repository.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Repository.Tests\bin\Debug\WebMatrix.WebData.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Repository.Tests\bin\Debug\EntityFramework.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Repository.Tests\bin\Debug\Medico.Model.pdb
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Repository.Tests\bin\Debug\Medico.Repository.pdb
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Repository.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Repository.Tests\obj\Debug\Journals.Repository.Tests.csprojResolveAssemblyReference.cache
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Repository.Tests\obj\Debug\Journals.Repository.Tests.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Repository.Tests\obj\Debug\Journals.Repository.Tests.pdb
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Repository.Tests\bin\Debug\Telerik.JustMock.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Repository.Tests\bin\Debug\WebMatrix.Data.dll

@@ -102,3 +102,34 @@ D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover
 D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web.Tests\obj\Debug\Medico.Web.Tests.pdb
 D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web.Tests\bin\Debug\EntityFramework.SqlServer.dll
 D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web.Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\obj\Debug\Journals.Web.Tests.csprojResolveAssemblyReference.cache
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\Medico.Web.Tests.dll.config
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\Medico.Web.Tests.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\Medico.Web.Tests.pdb
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\Medico.Model.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\Medico.Repository.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\Medico.Web.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\System.Web.Http.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\WebMatrix.WebData.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\System.Web.Optimization.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\DotNetOpenAuth.AspNet.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\DotNetOpenAuth.OAuth.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\DotNetOpenAuth.Core.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\DotNetOpenAuth.OpenId.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\Medico.Model.pdb
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\Medico.Repository.pdb
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\Medico.Web.pdb
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\System.Web.Http.xml
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\obj\Debug\Medico.Web.Tests.dll
+D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web.Tests\obj\Debug\Medico.Web.Tests.pdb
