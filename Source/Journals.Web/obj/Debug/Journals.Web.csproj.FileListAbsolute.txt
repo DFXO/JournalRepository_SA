@@ -112,19 +112,3 @@ D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover
 D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\obj\Debug\Medico.Web.pdb
 D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\WebMatrix.Data.dll
 D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Web\bin\WebMatrix.Data.xml
-D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web\bin\Medico.Web.dll.config
-D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web\bin\Medico.Web.dll
-D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web\bin\Medico.Web.pdb
-D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web\bin\Medico.Model.dll
-D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web\bin\Medico.Repository.dll
-D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web\bin\System.Net.Http.Formatting.dll
-D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web\bin\System.Web.Http.dll
-D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web\bin\System.Web.Http.WebHost.dll
-D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web\bin\Medico.Model.pdb
-D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web\bin\Medico.Repository.pdb
-D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web\bin\System.Net.Http.Formatting.xml
-D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web\bin\System.Web.Http.xml
-D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web\bin\System.Web.Http.WebHost.xml
-D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web\obj\Debug\Journals.Web.csprojResolveAssemblyReference.cache
-D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web\obj\Debug\Medico.Web.dll
-D:\github\sa_github_desktop_repo\JournalRepository_SA\Source\Journals.Web\obj\Debug\Medico.Web.pdb

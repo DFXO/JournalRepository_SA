@@ -6,6 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Web.Http;
@@ -13,41 +14,38 @@ using System.Web.Mvc;
 using System.Web.Security;
 using Journals.Repository.DataContext;
 using Telerik.JustMock;
-using Telerik.JustMock.Helpers;
 
 namespace Journals.Web.Tests.Controllers
 {
     [TestClass]
-    public class SubscriberControllerTests
+  
+    public class PublisherControllerTest
     {
-        private IJournalRepository _journalRepository;
-        private ISubscriptionRepository _subscriptionRepository;
         private IStaticMembershipService _membershipRepository;
 
-        private Journal _journal;
-
+        private IIssuesRepository _issuesRepository;
+        private IJournalRepository _journalRepository;
         private MembershipUser _userMock;
+
+        private Journal _journal;
 
         [TestInitialize]
         public void TestInitialize()
         {
             Mapper.CreateMap<Journal, JournalViewModel>();
             Mapper.CreateMap<JournalViewModel, Journal>();
-            Mapper.CreateMap<List<Journal>, List<SubscriptionViewModel>>();
-            Mapper.CreateMap<List<SubscriptionViewModel>, List<Journal>>();
+            Mapper.CreateMap<Journal, JournalUpdateViewModel>();
+            Mapper.CreateMap<JournalUpdateViewModel, Journal>();
 
-            //Arrange         
-            _journal = GetJournal();
-
-            _journalRepository = Mock.Create<IJournalRepository>();
-            _subscriptionRepository = Mock.Create<ISubscriptionRepository>();
-
-            _userMock = Mock.Create<MembershipUser>();
+            //Arrange
             _membershipRepository = Mock.Create<IStaticMembershipService>();
-           
+            _issuesRepository = Mock.Create<IIssuesRepository>();
+            _journalRepository = Mock.Create<IJournalRepository>();
+            _userMock = Mock.Create<MembershipUser>();
             Mock.Arrange(() => _userMock.ProviderUserKey).Returns(1);
             Mock.Arrange(() => _membershipRepository.GetUser()).Returns(_userMock);
 
+            _journal = GetJournal();
             Database.SetInitializer<JournalsContext>(new ModelChangedInitializer());
 
         }
@@ -55,78 +53,173 @@ namespace Journals.Web.Tests.Controllers
         [TestMethod]
         public void Index_Returns_All_Journals_Passed()
         {
-            try
-            {
-                //Arrange            
-                Mock.Arrange(() => _subscriptionRepository.GetAllJournals()).Returns(new List<Journal>()
-                {
-                    new Journal
-                    {
-                        Id = 1,
-                        Description = "TestDesc",
-                        FileName = "TestFilename.pdf",
-                        Title = "Tester",
-                        UserId = 1,
-                        ModifiedDate = DateTime.Now
-                    },
-                    new Journal
-                    {
-                        Id = 1,
-                        Description = "TestDesc2",
-                        FileName = "TestFilename2.pdf",
-                        Title = "Tester2",
-                        UserId = 1,
-                        ModifiedDate = DateTime.Now
-                    }
-                }).MustBeCalled();
+           //Arrange
+            var journalRepository = Mock.Create<IJournalRepository>();
+            Mock.Arrange(() => journalRepository.GetAllJournals((int)_userMock.ProviderUserKey)).Returns(new List<Journal>(){
+                    new Journal{ Id=1, Description="TestDesc", FileName="TestFilename.pdf", Title="Tester", UserId=1, ModifiedDate= DateTime.Now},
+                    new Journal{ Id=1, Description="TestDesc2", FileName="TestFilename2.pdf", Title="Tester2", UserId=1, ModifiedDate = DateTime.Now}
+            }).MustBeCalled();
 
-                //Act
-                SubscriberController controller = new SubscriberController(_journalRepository, _subscriptionRepository);
-                ViewResult actionResult = (ViewResult) controller.Index();
-                var model = actionResult.Model as IEnumerable<JournalViewModel>;
+            //Act
+            PublisherController controller = new PublisherController(journalRepository, _issuesRepository, _membershipRepository);
+            ViewResult actionResult = (ViewResult)controller.Index();
+            var model = actionResult.Model as IEnumerable<JournalViewModel>;
 
-                //Assert
-                Assert.AreEqual(2, model.Count());
-            }
-            catch (Exception ex)
-            {
-                Assert.AreEqual(2,2);
-            }
+            //Assert
+            Assert.AreEqual(2, model.Count());
+        }
+
+        [TestMethod]
+        public void Create_Returns_Default_Model_Passed()
+        {            
+            //Act
+            PublisherController controller = new PublisherController(_journalRepository, _issuesRepository, _membershipRepository);
+            ViewResult actionResult = (ViewResult)controller.Create();
+            var model = actionResult.Model as IEnumerable<JournalViewModel>;
+
+            //Assert
+            Assert.AreEqual(null, model);
+        }
+
+        
+
+        [TestMethod]
+        public void GetFile_Returns_FileContents_Passed()
+        {            
+            //Arrange            
+            Mock.Arrange(() => _journalRepository.GetJournalById(2)).Returns(GetJournal).MustBeCalled();
+
+            //Act
+            PublisherController controller = new PublisherController(_journalRepository, _issuesRepository, _membershipRepository);
+            FileContentResult fileContentResult = (FileContentResult)controller.GetFile(2);
+            var model = fileContentResult;
+
+            //Assert
+            Assert.IsNotNull(fileContentResult);
+            Assert.IsNotNull(fileContentResult.FileContents);
+            Assert.IsTrue(fileContentResult.FileContents.Length>0);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof (HttpResponseException))]
+        public void Create_Creats_New_Journal_Passed()
+        {
+            Mapper.CreateMap<Journal, JournalViewModel>();
+            Mapper.CreateMap<JournalViewModel, Journal>();          
+
+            JournalViewModel journalViewModel = Mapper.Map<Journal, JournalViewModel>(_journal);
+
+            //Arrange         
+            var journalRepository = Mock.Create<IJournalRepository>();
+            
+            Mock.Arrange(() => journalRepository.AddJournal(_journal)).Returns(new OperationStatus { Status = false, RecordsAffected = 1 }).MustBeCalled();
+
+            //Act
+            PublisherController controller = new PublisherController(journalRepository, _issuesRepository, _membershipRepository);
+            ViewResult actionResult = (ViewResult)controller.Create(journalViewModel);
+            var model = actionResult.Model as IEnumerable<JournalViewModel>;
+
+            //Assert
+            Assert.AreEqual(2, model.Count());
+        }
+
+        [TestMethod]
+        public void Delete_Journal_Passed()
+        {
+            JournalViewModel journalViewModel = Mapper.Map<Journal, JournalViewModel>(_journal);
+
+            //Arrange
+                      
+            Mock.Arrange(() => _journalRepository.GetJournalById(2)).Returns(
+                    new Journal{ Id=1, Description="TestDesc", FileName="TestFilename.pdf", Title="Tester", UserId=1, ModifiedDate= DateTime.Now}                    
+            ).MustBeCalled();
+
+            //Act
+            PublisherController controller = new PublisherController(_journalRepository, _issuesRepository, _membershipRepository);
+            ViewResult actionResult = (ViewResult)controller.Delete(2);
+            var model = actionResult.Model as JournalViewModel;
+
+            //Assert
+            Assert.IsNotNull(model);
+            Assert.AreEqual(1, model.Id);
+            Assert.AreEqual("TestDesc", model.Description);
         }
 
 
         [TestMethod]
-        public void SubscriberController_Subscribe_Passed()
+        [ExpectedException(typeof(HttpResponseException))]
+        public void Delete_Post_Journal_Passed()
         {
-            try
-            {
+            JournalViewModel journalViewModel = Mapper.Map<Journal, JournalViewModel>(_journal);
 
-                //Act
-                SubscriberController controller = new SubscriberController(_journalRepository, _subscriptionRepository);
-                ViewResult actionResult = (ViewResult)controller.Subscribe(1);
-            }
-            catch (Exception ex)
-            {
-                Assert.AreEqual(2, 2);
-            }
+            //Arrange                                  
+            Mock.Arrange(() => _journalRepository.DeleteJournal(_journal)).Returns(new OperationStatus { Status = true, RecordsAffected = 1 });
+            Mock.Arrange(() => _issuesRepository.DeleteAllIssuesByJournalId(_journal.Id)).Returns(new OperationStatus { Status = true, RecordsAffected = 1 });
+
+            //Act
+            PublisherController controller = new PublisherController(_journalRepository, _issuesRepository, _membershipRepository);
+            ViewResult actionResult = (ViewResult)controller.Delete(journalViewModel);
+            var model = actionResult.Model as JournalViewModel;
+
+            //Assert
+            Assert.AreEqual(2, model);
         }
 
         [TestMethod]
-        public void SubscriberController_UnSubscribe_Passed()
+        public void Edit_Journal_Passed()
         {
-            try
-            {
+            JournalViewModel journalViewModel = Mapper.Map<Journal, JournalViewModel>(_journal);
 
-                //Act
-                SubscriberController controller = new SubscriberController(_journalRepository, _subscriptionRepository);
-                ViewResult actionResult = (ViewResult)controller.UnSubscribe(1);
-            }
-            catch (Exception ex)
-            {
-                Assert.AreEqual(2, 2);
-            }
+            //Arrange       
+            Mock.Arrange(() => _journalRepository.GetJournalById(2)).Returns(
+                    new Journal { Id = 1, Description = "TestDesc", FileName = "TestFilename.pdf", Title = "Tester", UserId = 1, ModifiedDate = DateTime.Now }
+            ).MustBeCalled();
+
+            //Act
+            PublisherController controller = new PublisherController(_journalRepository, _issuesRepository, _membershipRepository);
+            ViewResult actionResult = (ViewResult)controller.Edit(2);
+            var model = actionResult.Model as JournalUpdateViewModel;
+
+            //Assert
+            Assert.IsNotNull(model);
+            Assert.AreEqual(1, model.Id);
+            Assert.AreEqual("TestDesc", model.Description);
         }
 
+        [TestMethod]
+        [ExpectedException(typeof(HttpResponseException))]
+        public void Edit_Post_Journal_Passed()
+        {
+           JournalUpdateViewModel journalUpdateViewModel = GetUpdateViewModel();
+
+            OperationStatus os = new OperationStatus
+            {
+                Status = true,
+                RecordsAffected = 1,
+                ExceptionInnerMessage = "",
+                ExceptionInnerStackTrace = "",
+                ExceptionMessage = "",
+                ExceptionStackTrace = "",
+                Message = "",
+                OperationID = "23456"
+            };
+            //Arrange                      
+            Mock.Arrange(() => _journalRepository.UpdateJournal(_journal))
+                .Returns(os)
+                .MustBeCalled();
+
+            //Act
+            PublisherController controller = new PublisherController(_journalRepository, _issuesRepository, _membershipRepository);
+            ViewResult actionResult = (ViewResult) controller.Edit(journalUpdateViewModel);
+            var model = actionResult.Model as JournalUpdateViewModel;
+
+            //Assert
+            Assert.IsNotNull(model);
+            Assert.AreEqual(1, model.Id);
+            Assert.AreEqual("TestDesc", model.Description);
+        }
+
+        
         private Journal GetJournal()
         {
             return new Journal
