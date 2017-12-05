@@ -28,6 +28,9 @@ namespace Journals.Web.Tests.Controllers
 
         private MembershipUser _userMock;
 
+        /// <summary>
+        /// Test Method
+        /// </summary>
         [TestInitialize]
         public void TestInitialize()
         {
@@ -37,7 +40,7 @@ namespace Journals.Web.Tests.Controllers
             Mapper.CreateMap<List<SubscriptionViewModel>, List<Journal>>();
 
             //Arrange         
-            _journal = GetJournal();
+            _journal = GetJournalObject();
 
             _journalRepository = Mock.Create<IJournalRepository>();
             _subscriptionRepository = Mock.Create<ISubscriptionRepository>();
@@ -52,8 +55,28 @@ namespace Journals.Web.Tests.Controllers
 
         }
 
+       /// <summary>
+       /// Test Suscribe method
+       /// </summary>
         [TestMethod]
-        public void Index_Returns_All_Journals_Passed()
+        public void SubscriberController_Subscribe_Test()
+        {
+            try
+            {
+
+                //Act
+                SubscriberController controller = new SubscriberController(_journalRepository, _subscriptionRepository);
+                ViewResult actionResult = (ViewResult)controller.Subscribe(1);
+            }
+            catch (Exception ex)
+            {
+                Assert.AreEqual(2, 2);
+            }
+        }
+
+
+        [TestMethod]
+        public void Index_Returns_All_Journals_Test()
         {
             try
             {
@@ -82,7 +105,7 @@ namespace Journals.Web.Tests.Controllers
 
                 //Act
                 SubscriberController controller = new SubscriberController(_journalRepository, _subscriptionRepository);
-                ViewResult actionResult = (ViewResult) controller.Index();
+                ViewResult actionResult = (ViewResult)controller.Index();
                 var model = actionResult.Model as IEnumerable<JournalViewModel>;
 
                 //Assert
@@ -90,29 +113,15 @@ namespace Journals.Web.Tests.Controllers
             }
             catch (Exception ex)
             {
-                Assert.AreEqual(2,2);
-            }
-        }
-
-
-        [TestMethod]
-        public void SubscriberController_Subscribe_Passed()
-        {
-            try
-            {
-
-                //Act
-                SubscriberController controller = new SubscriberController(_journalRepository, _subscriptionRepository);
-                ViewResult actionResult = (ViewResult)controller.Subscribe(1);
-            }
-            catch (Exception ex)
-            {
                 Assert.AreEqual(2, 2);
             }
         }
-
+        
+        /// <summary>
+        /// unsubscribe method 
+        /// </summary>
         [TestMethod]
-        public void SubscriberController_UnSubscribe_Passed()
+        public void SubscriberController_UnSubscribe_Test()
         {
             try
             {
@@ -127,7 +136,7 @@ namespace Journals.Web.Tests.Controllers
             }
         }
 
-        private Journal GetJournal()
+        private Journal GetJournalObject()
         {
             return new Journal
             {

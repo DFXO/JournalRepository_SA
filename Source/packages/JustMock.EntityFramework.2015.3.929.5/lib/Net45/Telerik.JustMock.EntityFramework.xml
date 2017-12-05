@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Telerik.JustMock.EntityFramework</name>
+    </assembly>
+    <members>
+        <member name="T:Telerik.JustMock.EntityFramework.EntityFrameworkMockingExtensions">
+            <summary>
+            Extensions for DbContext and IDbSet.
+            </summary>
+        </member>
+        <member name="M:Telerik.JustMock.EntityFramework.EntityFrameworkMockingExtensions.PrepareMock``1(``0)">
+            <summary>
+            Initializes the DbSet and IDbSet properties on the given DbContext instance to mock DbSets.
+            </summary>
+            <typeparam name="TDbContext">The type of the user DbContext.</typeparam>
+            <param name="dbContext">The user DbContext.</param>
+            <returns>The user DbContext.</returns>
+        </member>
+        <member name="M:Telerik.JustMock.EntityFramework.EntityFrameworkMockingExtensions.Bind``1(System.Data.Entity.IDbSet{``0},System.Collections.Generic.ICollection{``0})">
+            <summary>
+            Binds a mock DbSet to a user-supplied backing collection. Changes to the backing collection are
+            reflected on the DbSet and vice versa.
+            </summary>
+            <typeparam name="TEntity">The type of the entity.</typeparam>
+            <param name="dbSet">The mock DbSet.</param>
+            <param name="data">The backing collection.</param>
+            <returns>The mock DbSet.</returns>
+        </member>
+        <member name="M:Telerik.JustMock.EntityFramework.EntityFrameworkMockingExtensions.SetIdFunction``1(System.Data.Entity.IDbSet{``0},Telerik.JustMock.EntityFramework.GetIdFunction{``0})">
+            <summary>
+            Sets the function that can return an entity's ID to the mock DbSet.
+            </summary>
+            <typeparam name="TEntity">The type of the entity</typeparam>
+            <param name="dbSet">The mock DbSet.</param>
+            <param name="getIdFunction">The function that can return an entity's ID.</param>
+            <returns>The mock DbSet.</returns>
+        </member>
+        <member name="T:Telerik.JustMock.EntityFramework.GetIdFunction`1">
+            <summary>
+            A user-provided delegate that can return the value of the primary key of the entity.
+            The return value should be either:
+            * the value of the primary key if is non-composite
+            * an IEnumerable with the values of the key columns, if the key is composite
+            </summary>
+        </member>
+        <member name="T:Telerik.JustMock.EntityFramework.MockDbSet`1">
+            <summary>
+            An in-memory mock DbSet. DbContext instances created by <see cref="M:Telerik.JustMock.EntityFramework.EntityFrameworkMock.Create``1"/> are
+            initialized with instances of this class.
+            </summary>
+            <typeparam name="TEntity">The entity type.</typeparam>
+        </member>
+        <member name="M:Telerik.JustMock.EntityFramework.MockDbSet`1.#ctor">
+            <summary>
+            Creates a DbSet with an empty ObservableCollection for its backing store.
+            </summary>
+        </member>
+        <member name="P:Telerik.JustMock.EntityFramework.MockDbSet`1.Data">
+            <summary>
+            The backing collection for this DbSet. All operations on the DbSet are made
+            against this collection. The collection should be an instance of
+            ObservableCollection&lt;T&gt; for the <see cref="P:Telerik.JustMock.EntityFramework.MockDbSet`1.Local"/> property to work.
+            </summary>
+        </member>
+        <member name="P:Telerik.JustMock.EntityFramework.MockDbSet`1.GetIdFunction">
+            <summary>
+            A user-provided delegate that can return the value of the primary key of the entity.
+            
+            This delegate is called by the <see cref="M:Telerik.JustMock.EntityFramework.MockDbSet`1.Find(System.Object[])"/> method. If the entity's primary key property
+            is called "Id" or "%Entity%Id" (where %Entity% is the name of the entity class), then a
+            function is generated automatically to return the value of that property.
+            
+            The return value should be either:
+            * the value of the primary key if is non-composite
+            * an IEnumerable with the values of the key columns, if the key is composite
+            </summary>
+        </member>
+        <member name="P:Telerik.JustMock.EntityFramework.MockDbSet`1.Local">
+            <summary>
+            Returns the backing collection if it is an ObservableCollection,
+            otherwise returns a copy of it.
+            </summary>
+        </member>
+        <member name="T:Telerik.JustMock.EntityFramework.EntityFrameworkMock">
+            <summary>
+            The entry point for creating mock DbContexts for testing.
+            </summary>
+        </member>
+        <member name="M:Telerik.JustMock.EntityFramework.EntityFrameworkMock.Create``1">
+            <summary>
+            Creates a mock DbContext and initializes the DbSet and IDbSet properties on the instance to mock DbSets.
+            </summary>
+            <typeparam name="TDbContext">The type of the DbContext.</typeparam>
+            <returns>The mock DbContext.</returns>
+        </member>
+        <member name="M:Telerik.JustMock.EntityFramework.EntityFrameworkMock.PrepareMock``1(``0)">
+            <summary>
+            Initializes the DbSet and IDbSet properties on the given instance to mock DbSets.
+            If the DbContext is an interface, the passed instance must have been created using Mock.Create.
+            </summary>
+            <typeparam name="TDbContext">The type of the DbContext.</typeparam>
+            <param name="dbContext">The mock DbContext.</param>
+            <returns>The mock DbContext.</returns>
+        </member>
+    </members>
+</doc>

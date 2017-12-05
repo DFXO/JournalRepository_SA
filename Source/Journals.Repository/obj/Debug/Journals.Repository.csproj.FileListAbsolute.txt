@@ -35,3 +35,26 @@ D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover
 D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Repository\bin\Debug\System.Web.Razor.xml
 D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Repository\bin\Debug\Microsoft.Web.Infrastructure.xml
 D:\MyPersonal\New folder (2)\Journals - CO .NET trial\Final\Journals - Crossover .NET trial\Source\Journals.Repository\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\Medico.Repository.dll.config
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\Medico.Repository.dll
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\Medico.Repository.pdb
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\EntityFramework.dll
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\Medico.Model.dll
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\Microsoft.Practices.Unity.dll
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\WebMatrix.Data.dll
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\Medico.Model.pdb
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\EntityFramework.xml
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\Microsoft.Practices.Unity.xml
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\bin\Debug\WebMatrix.Data.xml
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\obj\Debug\Journals.Repository.csprojResolveAssemblyReference.cache
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\obj\Debug\Medico.Repository.dll
+D:\RahulPawar_SEM_Net_Journals\Source\Journals.Repository\obj\Debug\Medico.Repository.pdb
